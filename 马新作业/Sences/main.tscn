@@ -1,0 +1,152 @@
+[gd_scene load_steps=9 format=3 uid="uid://bethdo1eqw844"]
+
+[ext_resource type="Script" uid="uid://c564qun6krv60" path="res://Sences/main.gd" id="1_ri208"]
+[ext_resource type="PackedScene" uid="uid://ct2hktswcy832" path="res://Sences/mainphoto.tscn" id="1_yrmfl"]
+[ext_resource type="PackedScene" uid="uid://blwygqne1n0t0" path="res://Sences/red_point.tscn" id="2_gv1pi"]
+[ext_resource type="PackedScene" uid="uid://xu7ltm366ieb" path="res://Sences/土耳其.tscn" id="4_0y7xl"]
+[ext_resource type="PackedScene" uid="uid://b0vxjkahtcdsk" path="res://Sences/clear.tscn" id="5_5pjkp"]
+[ext_resource type="PackedScene" uid="uid://bcurobh3764ol" path="res://Sences/乌克兰.tscn" id="6_5pjkp"]
+[ext_resource type="Texture2D" uid="uid://c1j6p6t15wiig" path="res://assest/屏幕截图 2025-06-10 231659.png" id="7_0x3jc"]
+[ext_resource type="Texture2D" uid="uid://bum6436tc733o" path="res://assest/未标题-1.png" id="8_jtwaw"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_ri208")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(514, 306)
+scale = Vector2(1.20369, 0.962303)
+zoom = Vector2(1.7, 1.7)
+
+[node name="mainphoto" parent="." instance=ExtResource("1_yrmfl")]
+position = Vector2(515, 307)
+
+[node name="亚历山大·福明" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(304, 227)
+people_name = "亚历山大·福明"
+trans = "https://baike.baidu.com/item/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E7%A6%8F%E6%98%8E/59721307"
+
+[node name="乌梅罗夫" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(717, 240)
+people_name = "乌梅罗夫"
+trans = "https://baike.baidu.com/item/%E9%B2%81%E6%96%AF%E7%89%B9%E5%A7%86%C2%B7%E4%B9%8C%E6%A2%85%E7%BD%97%E5%A4%AB/63395697"
+
+[node name="谢尔盖·基斯利察" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(698, 239)
+people_name = "谢尔盖·基斯利察"
+trans = "https://baike.baidu.com/item/%E8%B0%A2%E5%B0%94%E7%9B%96%C2%B7%E5%9F%BA%E6%96%AF%E5%88%A9%E5%AF%9F/60189646"
+
+[node name="易卜拉欣·卡林" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(530, 229)
+people_name = "易卜拉欣·卡林"
+trans = "https://baike.baidu.com/item/%E6%98%93%E5%8D%9C%E6%8B%89%E6%AC%A3%C2%B7%E5%8D%A1%E6%9E%97/61069420"
+
+[node name="哈坎·费丹" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(481, 227)
+people_name = "哈坎·费丹"
+trans = "https://baike.baidu.com/item/%E5%93%88%E5%9D%8E%C2%B7%E8%B4%B9%E4%B8%B9/64512492"
+
+[node name="梅廷·古拉克" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(429, 227)
+people_name = "梅廷·古拉克"
+trans = "https://www.tsk.tr/"
+
+[node name="叶夫根尼娅·谢尔盖耶夫娜" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(279, 230)
+people_name = "叶夫根尼娅·谢尔盖耶夫娜"
+trans = "https://www.rbc.ua/rus/news/putin-zatverdiv-sklad-delegatsiyi-rf-peregovoriv-1747253749.html"
+
+[node name="米哈伊尔·加卢津" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(264, 235)
+people_name = "米哈伊尔·加卢津"
+trans = "https://baike.baidu.com/item/%E7%B1%B3%E5%93%88%E4%BC%8A%E5%B0%94%C2%B7%E5%8A%A0%E5%8D%A2%E6%B4%A5/60803040"
+
+[node name="梅金斯基" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(242, 241)
+people_name = "梅金斯基 "
+trans = "https://baike.baidu.com/item/%E5%BC%97%E6%8B%89%E5%9F%BA%E7%B1%B3%E5%B0%94%C2%B7%E6%A2%85%E9%87%91%E6%96%AF%E5%9F%BA/60218331"
+
+[node name="伊戈尔·科斯秋科夫" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(211, 243)
+people_name = "伊戈尔·科斯秋科夫"
+trans = "https://baike.baidu.com/item/%E4%BC%8A%E6%88%88%E5%B0%94%C2%B7%E7%A7%91%E6%96%AF%E7%A7%8B%E7%A7%91%E5%A4%AB/23179310"
+
+[node name="科夫巴萨" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(684, 237)
+people_name = "科夫巴萨"
+trans = "https://baike.baidu.com/item/%E7%A7%91%E5%A4%AB%E5%B7%B4%E8%90%A8/65738814"
+
+[node name="别夫兹别夫兹" parent="." instance=ExtResource("2_gv1pi")]
+position = Vector2(663, 235)
+people_name = "别夫兹"
+trans = "https://baike.baidu.com/item/%E5%88%AB%E5%A4%AB%E5%85%B9/65738810"
+
+[node name="clear" parent="." node_paths=PackedStringArray("photo") instance=ExtResource("5_5pjkp")]
+position = Vector2(482, 292)
+photo = NodePath("../Sprite2D")
+
+[node name="clear3" parent="." node_paths=PackedStringArray("photo") instance=ExtResource("5_5pjkp")]
+position = Vector2(688, 354)
+photo = NodePath("../Sprite2D2")
+
+[node name="clear4" parent="." node_paths=PackedStringArray("photo") instance=ExtResource("5_5pjkp")]
+position = Vector2(259, 347)
+photo = NodePath("../屏幕截图2025-06-10231659")
+
+[node name="Sprite2D" parent="." instance=ExtResource("4_0y7xl")]
+visible = false
+position = Vector2(511, 196)
+scale = Vector2(0.578062, 0.578062)
+
+[node name="Sprite2D2" parent="." instance=ExtResource("6_5pjkp")]
+visible = false
+position = Vector2(653, 294)
+scale = Vector2(0.953482, 0.953482)
+
+[node name="屏幕截图2025-06-10231659" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(265, 321)
+scale = Vector2(0.482023, 0.569782)
+texture = ExtResource("7_0x3jc")
+
+[node name="未标题-1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(545, 364)
+scale = Vector2(1.06003, 1.00784)
+texture = ExtResource("8_jtwaw")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="clear2" parent="CanvasLayer" instance=ExtResource("5_5pjkp")]
+position = Vector2(22, 57)
+
+[node name="red_point" parent="CanvasLayer" instance=ExtResource("2_gv1pi")]
+position = Vector2(18, 22)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer"]
+offset_left = 38.0
+offset_top = 10.0
+offset_right = 154.0
+offset_bottom = 50.0
+text = "点击显示详情"
+metadata/_edit_use_anchors_ = true
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="CanvasLayer"]
+offset_left = 40.0
+offset_top = 46.0
+offset_right = 245.0
+offset_bottom = 86.0
+text = "鼠标移动到此按钮看大图"
+metadata/_edit_use_anchors_ = true
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="CanvasLayer"]
+offset_left = 968.0
+offset_top = 8.0
+offset_right = 1195.0
+offset_bottom = 48.0
+text = "鼠标移动此处看信息来源"
+
+[node name="clear" parent="CanvasLayer" node_paths=PackedStringArray("photo") instance=ExtResource("5_5pjkp")]
+position = Vector2(941, 19)
+photo = NodePath("../../未标题-1")
+
+[connection signal="hide" from="." to="." method="_on_hide"]

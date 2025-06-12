@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcdxq8oyyqrrl"]
+
+[ext_resource type="Texture2D" uid="uid://c1j6p6t15wiig" path="res://assest/屏幕截图 2025-06-10 231659.png" id="1_6xs5i"]
+
+[node name="俄罗斯" type="Sprite2D"]
+
+[node name="屏幕截图2025-06-10231659" type="Sprite2D" parent="."]
+texture = ExtResource("1_6xs5i")

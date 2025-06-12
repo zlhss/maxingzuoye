@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0vxjkahtcdsk"]
+
+[ext_resource type="Texture2D" uid="uid://br32whn3k7cc7" path="res://assest/buttom_red.png" id="1_emh01"]
+[ext_resource type="Script" uid="uid://rahov1f8ams" path="res://Sences/area_2d.gd" id="2_68eny"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_emh01"]
+radius = 16.0
+
+[node name="clear" type="Area2D"]
+script = ExtResource("2_68eny")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_emh01")
+
+[node name="ButtomRed" type="Sprite2D" parent="."]
+texture = ExtResource("1_emh01")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

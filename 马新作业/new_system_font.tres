@@ -1,0 +1,6 @@
+[gd_resource type="SystemFont" load_steps=2 format=3 uid="uid://c60ystib8fgl2"]
+
+[ext_resource type="FontFile" uid="uid://c4ix7d2m6mngn" path="res://assest/STKAITI.TTF" id="1_a1g5r"]
+
+[resource]
+fallbacks = Array[Font]([ExtResource("1_a1g5r")])

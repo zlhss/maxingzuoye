@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://xu7ltm366ieb"]
+
+[ext_resource type="Texture2D" uid="uid://bkp1ly10xju5w" path="res://assest/屏幕截图 2025-06-10 151450.png" id="1_mnhba"]
+
+[node name="Sprite2D" type="Sprite2D"]
+
+[node name="屏幕截图2025-06-10151450" type="Sprite2D" parent="."]
+texture = ExtResource("1_mnhba")
