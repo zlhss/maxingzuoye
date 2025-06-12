@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://bethdo1eqw844"]
+[gd_scene load_steps=10 format=3 uid="uid://bethdo1eqw844"]
 
 [ext_resource type="Script" uid="uid://c564qun6krv60" path="res://Sences/main.gd" id="1_ri208"]
 [ext_resource type="PackedScene" uid="uid://ct2hktswcy832" path="res://Sences/mainphoto.tscn" id="1_yrmfl"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://bcurobh3764ol" path="res://Sences/乌克兰.tscn" id="6_5pjkp"]
 [ext_resource type="Texture2D" uid="uid://c1j6p6t15wiig" path="res://assest/屏幕截图 2025-06-10 231659.png" id="7_0x3jc"]
 [ext_resource type="Texture2D" uid="uid://bum6436tc733o" path="res://assest/未标题-1.png" id="8_jtwaw"]
+[ext_resource type="SystemFont" uid="uid://c60ystib8fgl2" path="res://new_system_font.tres" id="9_hxpnw"]
 
 [node name="main" type="Node2D"]
 script = ExtResource("1_ri208")
@@ -122,27 +123,29 @@ position = Vector2(22, 57)
 [node name="red_point" parent="CanvasLayer" instance=ExtResource("2_gv1pi")]
 position = Vector2(18, 22)
 
-[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer"]
-offset_left = 38.0
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 39.0
 offset_top = 10.0
-offset_right = 154.0
-offset_bottom = 50.0
+offset_right = 135.0
+offset_bottom = 33.0
+theme_override_fonts/font = ExtResource("9_hxpnw")
 text = "点击显示详情"
-metadata/_edit_use_anchors_ = true
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="CanvasLayer"]
+[node name="RichTextLabel2" type="Label" parent="CanvasLayer"]
 offset_left = 40.0
 offset_top = 46.0
 offset_right = 245.0
 offset_bottom = 86.0
+theme_override_fonts/font = ExtResource("9_hxpnw")
 text = "鼠标移动到此按钮看大图"
 metadata/_edit_use_anchors_ = true
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="CanvasLayer"]
+[node name="RichTextLabel3" type="Label" parent="CanvasLayer"]
 offset_left = 968.0
 offset_top = 8.0
 offset_right = 1195.0
 offset_bottom = 48.0
+theme_override_fonts/font = ExtResource("9_hxpnw")
 text = "鼠标移动此处看信息来源"
 
 [node name="clear" parent="CanvasLayer" node_paths=PackedStringArray("photo") instance=ExtResource("5_5pjkp")]
