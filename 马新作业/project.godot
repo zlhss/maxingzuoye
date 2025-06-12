@@ -23,6 +23,7 @@ window/stretch/aspect="expand"
 
 [gui]
 
+theme/custom="uid://c60ystib8fgl2"
 theme/custom_font="uid://c60ystib8fgl2"
 
 [input]
